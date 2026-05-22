@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lobster&family=Oi&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lobster&family=Oi&family=Rubik+Scribble&display=swap');
+
+$background-color: #333;
+$font-color: white;
+$font-style: "Inter", sans-serif;
+$primary-color: #04da4b;
+$main-joke-color: #444;
+$main-font: "Rubik Scribble", cursive;
+$saved-color: #f02f2f;
+
+@mixin tablet-and-up() {
+    @media only screen and (min-width: 600px) {
+        @content;
+    }
+};
