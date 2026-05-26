@@ -1,9 +1,6 @@
 @use "variables" as *;
 
-* {
-  margin: 0;
-  padding: 0;
-}
+
 
 body {
   background-color: $background-color;
@@ -85,6 +82,10 @@ body {
     align-items: center;
     justify-content: center;
     gap: 0.5rem;
+
+    &--disabled {
+      display: none;
+    }
   }
 
   &__save-icon {
@@ -137,7 +138,7 @@ body {
     transition: 0.2s all ease-in-out;
 
     &:hover {
-      background-color: darken($saved-color, 7);
+      background-color: darken($saved-color, 5);
     }
   }
 
